@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --color-bgContrast: #f5f5f5;
+  --color-textBase: #111;
+  --color-cardBg: #f3f3f3;
+}
+
+html.dark {
+  --color-bgContrast: #2b1e1e;
+  --color-textBase: #f2a6a6;
+  --color-cardBg: #3a2f30;
+}
+
