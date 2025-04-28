@@ -93,13 +93,13 @@ Puedes ver la versión publicada en Vercel aquí:
 ## 📷 Capturas de Pantalla
 
 ### 📌 Pantalla de Login
-![Pantalla de Login](./src/assets/1-readme.png)
+![Pantalla de Login](https://github.com/Isabensa/Virtlab-Frontend-Isa/blob/main/src/assets/1%20readme.png?raw=true./src/assets/1-readme.png)
 
 ### 📌 Dashboard del Administrador
-![Dashboard del Administrador](./src/assets/2-readme.png)
+![Dashboard del Administrador](https://github.com/Isabensa/Virtlab-Frontend-Isa/blob/main/src/assets/2%20readme.png?raw=true)
 
 ### 📌 Gestión de Usuarios
-![Gestión de Usuarios](./src/assets/3-readme.png)
+![Gestión de Usuarios](https://github.com/Isabensa/Virtlab-Frontend-Isa/blob/main/src/assets/3%20readme.png?raw=true)
 
 ---
 
