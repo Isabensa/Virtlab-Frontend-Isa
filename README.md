@@ -1,12 +1,15 @@
-# 📚 Descripción del proyecto
+# 📄 Virtlab NASA Frontend
 
-Este repositorio contiene el frontend de la aplicación educativa **Virtlab NASA**.  
-Es un sitio web que permite gestionar aulas, simulaciones científicas y navegar por una galería de imágenes espaciales provistas por la NASA.
+## 📙 Descripción
+Frontend del proyecto **Virtlab NASA**, aplicación educativa que permite:
+- Gestionar usuarios
+- Crear y administrar aulas
+- Crear y gestionar simulaciones científicas
+- Explorar la galería de imágenes científicas de la NASA
 
 ---
 
-# 🚀 Tecnologías utilizadas
-
+## 🚀 Tecnologías utilizadas
 - React 19
 - Vite
 - Tailwind CSS 4
@@ -18,28 +21,24 @@ Es un sitio web que permite gestionar aulas, simulaciones científicas y navegar
 
 ---
 
-# 📁 Estructura de carpetas
-
-```
+## 📁 Estructura del Proyecto
+```plaintext
 src/
-  Components/
-    Nasa/
-    Layout/
-    ...
-  Pages/
-    DashboardAdmin.jsx
-    DashboardAlumno.jsx
-    ...
-  Context/
-    AuthContext.jsx
-    ThemeContext.jsx
-  services/
-    api.js
+ ├── Components/
+ │   ├── Nasa/
+ │   └── Layout/
+ ├── Pages/
+ │   └── DashboardAdmin.jsx, DashboardAlumno.jsx, etc.
+ ├── Context/
+ │   ├── AuthContext.jsx
+ │   └── ThemeContext.jsx
+ └── services/
+     └── api.js
 ```
 
 ---
 
-# ⚙️ Instrucciones para correr el proyecto localmente
+## ⚙️ Instrucciones para correr el proyecto localmente
 
 ### 1. Clonar el repositorio
 ```bash
@@ -56,51 +55,59 @@ cd Virtlab-Frontend-Isa
 npm install
 ```
 
-### 4. Crear un archivo `.env` (opcional)
-Este proyecto funciona directamente en local. Solo sería necesario si quieres configurar Axios:
+### 4. Variables de entorno
+
+No requiere .env obligatorio para el frontend.
+Si deseas configurar una URL base de la API, puedes agregar:
 
 ```bash
-VITE_API_URL=http://localhost:5000
+VITE_API_URL=https://virtlab-backend-isa.onrender.com
 ```
 
-(No obligatorio si en tu `services/api.js` ya está manualmente seteada la URL.)
-
----
+*(Ya está configurado manualmente en `api.js`)*
 
 ### 5. Levantar el servidor de desarrollo
 ```bash
 npm run dev
 ```
 
-Accede a tu navegador en:
-
-```
+Accede en tu navegador a:
+```plaintext
 http://localhost:5173
 ```
 
 ---
 
-# 🛠️ Requisitos previos
+## 🚧 Aplicación desplegada online
 
-- Tener Node.js instalado (versión 18 o superior recomendada).
-- Tener npm instalado.
-- Tener corriendo el backend de la aplicación (**Virtlab-Backend-Isa**) en paralelo.
+Puedes ver la versión publicada en Vercel aquí:
 
----
+✨ https://virtlab-frontend-isa.vercel.app
 
-# 📷 Capturas de pantalla
+> El frontend consume la API desplegada en https://virtlab-backend-isa.onrender.com
 
-![Pantalla de Login](https://github.com/Isabensa/Virtlab-Frontend-Isa/blob/main/src/assets/1%20readme.png?raw=true)
-
-![Dashboard Administrador](https://github.com/Isabensa/Virtlab-Frontend-Isa/blob/main/src/assets/2%20readme.png?raw=true)
-
-![Gestión de Usuarios](https://github.com/Isabensa/Virtlab-Frontend-Isa/blob/main/src/assets/3%20readme.png?raw=true)
+*(Recordá que Render puede demorar unos segundos en "despertar" el backend)*
 
 ---
 
-# 📄 Licencia
+## 📷 Capturas de Pantalla
 
-Proyecto académico para fines educativos.  
-Desarrollado en el marco de la **Diplomatura de Desarrollo Fullstack 2025**.
+### 📌 Pantalla de Login
+![Pantalla de Login](./src/assets/1-readme.png)
+
+### 📌 Dashboard del Administrador
+![Dashboard del Administrador](./src/assets/2-readme.png)
+
+### 📌 Gestión de Usuarios
+![Gestión de Usuarios](./src/assets/3-readme.png)
 
 ---
+
+## 📄 Licencia
+
+Proyecto académico para fines educativos.
+
+Desarrollado por **Celia Isabel Bensadón**.
+
+Diplomatura en Desarrollo Web Fullstack 2025.
+
